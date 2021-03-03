@@ -1,7 +1,7 @@
 # Todo React App using slash GraphQL powered by Dgraph
 
 
-### GraphQL Schema Design for Dgraph
+### GraphQL Schema Design:
 
 
 ```graphql
