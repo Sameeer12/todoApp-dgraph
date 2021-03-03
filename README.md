@@ -37,5 +37,5 @@ Compiles the Todo application and minifies to generate the production build.
 
 ## Screenshots
 
-![Todo App ](./todo-ui.png)
+![Todo App ](./todo_ui.png)
 ---
