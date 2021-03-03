@@ -6,16 +6,17 @@
 We represent that in the GraphQL schema shown below:
 
 ```graphql
-type Task {
-    id: ID!
-    title: String!
-    completed: Boolean!
+type User {
+  	username: String! @id @search(by: [hash])
+   	name: String @search(by: [exact])
+  	tasks: [Task]
 }
 
-type User {
-    username: String!
-    name: String
-    tasks: [task]
+type Task {
+  	id:ID!
+    title: String! @search(by: [fulltext])
+  	completed: Boolean! @search
+  	user: [User] @hasInverse(field: tasks)
 }
 ```
 
