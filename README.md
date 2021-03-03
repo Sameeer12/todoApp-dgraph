@@ -3,7 +3,6 @@
 
 ### GraphQL Schema Design for Dgraph
 
-We represent that in the GraphQL schema shown below:
 
 ```graphql
 type User {
